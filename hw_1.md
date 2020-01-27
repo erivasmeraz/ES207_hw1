@@ -7,34 +7,71 @@ output:
     keep_md: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 # Problems 1-6
-```{r cars}
+
+```r
 x <- c(1,2,4)
 q <- c(x,x,8)
 #Problem 3
 x[4]
+```
+
+```
+## [1] NA
+```
+
+```r
 #Problem 4
 s <- sd(q)
 s
+```
+
+```
+## [1] 2.478479
+```
+
+```r
 #Problem 5
 paste("Edwin","Rivas","Meraz")
+```
+
+```
+## [1] "Edwin Rivas Meraz"
+```
+
+```r
 #assign value to object "m"
 m <- 100
 ls()
+```
+
+```
+## [1] "m" "q" "s" "x"
+```
+
+```r
 #Problem 6
 rm(m)
 ls()
-rm(list=ls())
-ls()
-
+```
 
 ```
+## [1] "q" "s" "x"
+```
+
+```r
+rm(list=ls())
+ls()
+```
+
+```
+## character(0)
+```
 # Problems 7-
-```{r }
+
+```r
 oddcount <- function(x) {
   print(x)
   k <- 0
@@ -56,6 +93,34 @@ oddcount <- function(x) {
 }
 #Problem 7
 oddcount (x <- c(1,2,3,7,9))
+```
+
+```
+## [1] 1 2 3 7 9
+## [1] "k is initialized as 0"
+## [1] "current x value being tested is 1"
+## [1] "1 is an odd number!"
+## [1] "The final is currently 1"
+## [1] "current x value being tested is 2"
+## [1] "2 is an even number!"
+## [1] "The final is currently 1"
+## [1] "current x value being tested is 3"
+## [1] "3 is an odd number!"
+## [1] "The final is currently 2"
+## [1] "current x value being tested is 7"
+## [1] "7 is an odd number!"
+## [1] "The final is currently 3"
+## [1] "current x value being tested is 9"
+## [1] "9 is an odd number!"
+## [1] "The final is currently 4"
+## [1] "The final k is 4"
+```
+
+```
+## [1] 4
+```
+
+```r
 #Problem 8
 evencount <- function(x) {
   print(x)
@@ -77,8 +142,31 @@ evencount <- function(x) {
   return(k)
 }
 evencount (x <- c(1,2,3,7,9))
+```
 
+```
+## [1] 1 2 3 7 9
+## [1] "k is initialized as 0"
+## [1] "current x value being tested is 1"
+## [1] "1 is an even number!"
+## [1] "The final is currently 0"
+## [1] "current x value being tested is 2"
+## [1] "2 is an odd number!"
+## [1] "The final is currently 1"
+## [1] "current x value being tested is 3"
+## [1] "3 is an even number!"
+## [1] "The final is currently 1"
+## [1] "current x value being tested is 7"
+## [1] "7 is an even number!"
+## [1] "The final is currently 1"
+## [1] "current x value being tested is 9"
+## [1] "9 is an even number!"
+## [1] "The final is currently 1"
+## [1] "The final k is 1"
+```
 
+```
+## [1] 1
 ```
 # 9
 - Integrity of data
