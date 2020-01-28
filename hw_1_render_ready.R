@@ -1,18 +1,16 @@
 ---
-title: "hw_1"
-author: "Edwin Rivas Meraz"
-date: "1/26/2020"
-output: 
-  html_document: 
-    keep_md: true
+#'title: "hw_1"
+#'author: "Edwin Rivas Meraz"
+#'date: "1/26/2020"
+#'output: 
+  #'html_document:
+  #'keep_md: true
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+#+ r setup, include=FALSE
+#+ knitr::opts_chunk$set(echo = TRUE)
 
 # Problems 1-6
-```{r}
+#+ r
 x <- c(1,2,4)
 q <- c(x,x,8)
 #Problem 3
@@ -31,10 +29,6 @@ ls()
 rm(list=ls())
 ls()
 
-
-```
-# Problems 7-
-```{r}
 oddcount <- function(x) {
   print(x)
   k <- 0
@@ -78,35 +72,32 @@ evencount <- function(x) {
 }
 evencount (x <- c(1,2,3,7,9))
 
-
-```
 # 9
-- Integrity of data
-- Portability of the project
-- Helps kickstart a project after a hiatus
-- Helps introduce others to your project
-- Helps present your data
+#' - Integrity of data
+#' - Portability of the project
+#' - Helps kickstart a project after a hiatus
+#' - Helps introduce others to your project
+#' - Helps present your data
 
 # 10
-- Treat data as read only
-- Treat generated output as disposable
-- Separate function definition and application
+#' - Treat data as read only
+#' - Treat generated output as disposable
+#' - Separate function definition and application
 
 # 11
-C:\\Program Files\\RStudio
+#' C:\\Program Files\\RStudio
 
 # 12
-/Users/edwin/Program Files/RStudio/
-
-# 13
-C:\\Users\\edwin\\Environmental Data Analysis\\ES207_hw1
+#'/Users/edwin/Program Files/RStudio/
+  
+# 13  C:\\Users\\edwin\\Environmental Data Analysis\\ES207_hw1
 
 # 14
-C:\\Users\\edwin\\Environmental Data Analysis
+#'C:\\Users\\edwin\\Environmental Data Analysis
 
 # 15
-/Users/edwin/Environmental Data Analysis/ES207_hw1
-/Users/edwin/Environmental Data Analysis
+#'/Users/edwin/Environmental Data Analysis/ES207_hw1
+#'/Users/edwin/Environmental Data Analysis
 
 # 18
 

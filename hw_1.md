@@ -181,7 +181,7 @@ evencount (x <- c(1,2,3,7,9))
 - Separate function definition and application
 
 # 11
-C:\Program Files\RStudio
+C:\\Program Files\\RStudio
 
 # 12
 /Users/edwin/Program Files/RStudio/
