@@ -1,4 +1,49 @@
+<<<<<<< HEAD
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+=======
+
+# Exclude specific files
+# ----------------------
+
+
+
+# Package tar.gz source, zip binaries 
+# and pdf manual
+# -----------------------------------
+
+/pkg/*.gz
+/pkg/*.zip
+/pkg/*.pdf
+
+# R CMD CHECK residuals
+# ---------------------
+
+/pkg/soiltexture.Rcheck
+/pkg/soiltexture/soiltexture-Ex.R
+
+# Linux backup files
+# ------------------
+
+*.R~
+*.TXT~
+*.sh~
+*.gitignore~
+/pkg/soiltexture/NEWS~
+
+/pkg/binaryArchive/*.gz
+/pkg/binaryArchive/*.pdf
+/pkg/soiltexture/inst/doc/*.html
+/pkg/soiltexture/inst/doc/*.pdf
+/pkg/binaryArchive
+
+*.pdf
+*.aux
+*.bbl
+*.log
+*.blg
+*.tex
+*.toc
+>>>>>>> soil_texture/master
